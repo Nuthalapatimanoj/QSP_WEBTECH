@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card1{
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    border: 2px solid;
+    margin-top: 10px;
+}
+
+.card2{
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    border: 2px solid;
+    margin-top: 10px;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    border: 2px solid;
+    margin-top: 10px;
+}

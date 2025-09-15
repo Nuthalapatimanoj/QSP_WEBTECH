@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    position: relative;
+}
+
+.outer > .box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#b1{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#b2{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#b3{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#b4{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#b5{
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

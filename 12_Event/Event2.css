@@ -1,0 +1,42 @@
+/* DATE : 13 - 09 - 2025 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 300px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main{
+    height: 300px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main > .input{
+    height: 30px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+main > .output{
+    height: 100px;
+    background-color: white ;
+    width: 500px;
+    border-radius:10px;
+    box-shadow: 1px 2px 3px black;
+}
