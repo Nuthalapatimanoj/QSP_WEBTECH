@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.outer > .right{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.outer > .left{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left > h1 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.left > .inner{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 3px 3px 5px rgb(92, 29, 152);
+}
+
+.inner > .card > label,input,button{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.card > label{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card > input{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.card input:focus{
+    border: 3px solid green;
+}
+
+.inner > form > button{
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inner > button:hover{
+    background-color: rgb(68, 66, 66);
+}
+
+.inner > .footer{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > p{
+    font-weight: bold;
+}
+
+.footer > a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+   
+
+.inner{
+    width:350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 10px grey;
+    
+}
+
+.inner > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.inner > p{
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.inner > form > label{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}
+
+.style{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black ;
+    outline: none;
+}
+
+.style:focus{
+    border: 3px solid green;
+}
+
+.style::placeholder{
+    font-size: 13px;
+}
+
+.inner > form > button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding :8px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.inner > form > button:hover{
+    background-color: green;
+    color:aliceblue;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.footer > p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer > a{
+    font-size: 15px;
+    text-decoration: none;
+} 
