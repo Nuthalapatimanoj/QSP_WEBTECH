@@ -20,7 +20,9 @@ form.addEventListener("submit",(e)=>{
     localStorage.setItem("Useremail",email)
     localStorage.setItem("Userpass",pass)
 
-    open("./LoginPage.html")          //! Used to navigate login page on submitting the form
+    alert("Signup done")
+
+    open("./Login.html")          //! Used to navigate login page on submitting the form
 })
 
 

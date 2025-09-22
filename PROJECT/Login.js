@@ -10,10 +10,11 @@ form.addEventListener("submit",(e)=>{
     let getpass=localStorage.getItem("Userpass")
 
     if (user===getuser  && pass===getpass) {
+        alert("Login done successfully 👍")
         console.log({user,pass})
+        open("./Home.html")
     } else {
-        alert("User not exists❌")
+        alert("Wrong Credentials ❌")
     }
 
-    open("./HomePage.html")
 })
